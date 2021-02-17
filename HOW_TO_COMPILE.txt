@@ -1,0 +1,24 @@
+-- HOW TO COMPILE --
+
+-- Mysql Database Config -- 
+1. Login into MySQl Database server
+2. Execute DBSCRIPT_NISPCOREWORK.sql
+3. Execute DML_NISPCOREWORK.sql
+
+-- Setup Project Application -- 
+1. Extract NispCoreWork.rar
+2. Edit db.properties file located at NispCoreWork -> config -> db.properties
+3. Edit following parameter into destination mysql database setting 
+   jdbc.username=root
+   jdbc.password=admin123
+4. Import project on eclipse 
+5. Right Click on root project and go to export -> WAR File
+6. Choose Destination to apache tomcat webapp (ex : ($userfolder)\apache-tomcat-8.5.55\webapps) 
+
+-- Run Project Application --
+1. Run startup.bat at Apache tomcat folder -> bin
+2. Type localhost http://localhost:8080/NispWork/
+
+*Note the project doesn't accomplish yet
+   
+  

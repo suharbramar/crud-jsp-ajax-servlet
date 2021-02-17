@@ -1,0 +1,4 @@
+1. <form class="form-signin" id="main" action="<%=request.getContextPath()%>/CustomerForm" method="POST">
+   id="main" -> must be remove because it cause error to submit
+   
+   
